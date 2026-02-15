@@ -10,7 +10,7 @@ const Hero = ({ settings }) => {
 
     let heroImage = defaultImage;
     if (settings?.heroImage) {
-        heroImage = settings.heroImage.startsWith("http") ? settings.heroImage : `http://localhost:3000${settings.heroImage}`;
+        heroImage = settings.heroImage.startsWith("http") ? settings.heroImage : settings.heroImage;
     }
 
     return (

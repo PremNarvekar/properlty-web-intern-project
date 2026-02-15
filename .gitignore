@@ -5,7 +5,7 @@ node_modules/
 .env
 
 # Build output
-dist/
+Frontend/dist/
 build/
 
 # Uploads (user-generated)
